@@ -117,3 +117,4 @@ if img_file_buffer is not None:
     # Create a link for downloading the output file.
     st.markdown(get_image_download_link(out_image, "face_output.jpg", 'Download Output Image'),
                 unsafe_allow_html=True)
+    
